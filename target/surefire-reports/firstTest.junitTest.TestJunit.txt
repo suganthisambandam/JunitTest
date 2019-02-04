@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: firstTest.junitTest.TestJunit
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in firstTest.junitTest.TestJunit
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in firstTest.junitTest.TestJunit
+testPrintMessage1(firstTest.junitTest.TestJunit)  Time elapsed: 0.015 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Hello World[ hai]> but was:<Hello World[]>
+	at firstTest.junitTest.TestJunit.testPrintMessage1(TestJunit.java:17)
+

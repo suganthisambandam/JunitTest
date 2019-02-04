@@ -12,9 +12,9 @@ public class TestJunit {
 	      assertEquals(message,messageUtil.printMessage());
 	   }
 	   
-/*	   @Test
+	   @Test
 	   public void testPrintMessage1() {
 	      assertEquals(message1,messageUtil.printMessage());
 	   }
-*/
+
 }
